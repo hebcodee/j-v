@@ -3,10 +3,10 @@ import { Users, Clock, ShieldCheck, ThumbsUp } from "lucide-react";
 
 export default function SocialProof() {
   const proofs = [
-    { icon: Users, text: "+1000 clientes atendidos" },
-    { icon: Clock, text: "10 anos de experiência" },
+    { icon: Users, text: "+10000 clientes atendidos" },
+    { icon: Clock, text: "20 anos de experiência" },
     { icon: ThumbsUp, text: "Atendimento Rápido" },
-    { icon: ShieldCheck, text: "Equipe Qualificada" }
+    { icon: ShieldCheck, text: "Equipe Qualificada" },
   ];
 
   return (
@@ -17,7 +17,7 @@ export default function SocialProof() {
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           {proofs.map((proof, i) => (
-            <motion.div 
+            <motion.div
               key={i}
               className="flex flex-col items-center justify-center gap-3 text-center"
               initial={{ opacity: 0, y: 20 }}
