@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function Stats() {
   const stats = [
-    { value: "10+", label: "Anos de Mercado" },
-    { value: "5k+", label: "Equipamentos Atendidos" },
+    { value: "20+", label: "Anos de Mercado" },
+    { value: "10k+", label: "Equipamentos Atendidos" },
     { value: "98%", label: "Índice de Satisfação" },
     { value: "24h", label: "Suporte e Urgências" },
   ];
@@ -13,7 +13,7 @@ export default function Stats() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           {stats.map((stat, i) => (
-            <motion.div 
+            <motion.div
               key={i}
               className="text-center"
               initial={{ opacity: 0, y: 20 }}

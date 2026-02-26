@@ -7,15 +7,22 @@ export default function Integrations() {
     { icon: ThermometerSnowflake, name: "Ar-Condicionado de Janela" },
     { icon: Snowflake, name: "Geladeiras e Freezers" },
     { icon: Store, name: "Refrigeração Comercial" },
+    { icon: Wind, name: "Ar-Condicionado Split" },
+    { icon: ThermometerSnowflake, name: "Ar-Condicionado de Janela" },
+    { icon: Snowflake, name: "Geladeiras e Freezers" },
+    { icon: Store, name: "Refrigeração Comercial" },
   ];
 
   return (
     <section className="py-20 md:py-32 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Equipamentos que Atendemos</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            Equipamentos que Atendemos
+          </h2>
           <p className="text-muted-foreground">
-            Especialistas nas principais marcas e modelos do mercado de refrigeração.
+            Especialistas nas principais marcas e modelos do mercado de
+            refrigeração.
           </p>
         </div>
 

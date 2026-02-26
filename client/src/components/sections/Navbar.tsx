@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "@assets/logo_(2)_1772068633650.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,9 +27,9 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2">
             <img
-              src={logo}
+              src={"/logo.png"}
               alt="J&V Montagem e Manutenção"
-              className="h-10 md:h-12 object-contain"
+              className="h-12 md:h-12 object-contain"
             />
           </a>
         </Link>

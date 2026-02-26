@@ -1,5 +1,12 @@
 import { motion } from "framer-motion";
-import { ThermometerSnowflake, Wrench, ShieldCheck, Clock } from "lucide-react";
+import {
+  ThermometerSnowflake,
+  Wrench,
+  ShieldCheck,
+  Clock,
+  Gauge,
+  Search,
+} from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
@@ -19,7 +26,7 @@ export default function Features() {
       description:
         "Evite falhas repentinas e aumente a vida útil dos seus equipamentos.",
       icon: ShieldCheck,
-      color: "bg-cyan-50 text-[#2C96BF]",
+      color: "bg-indigo-50 text-[#063573",
     },
     {
       title: "Reparo Rápido",
@@ -33,7 +40,21 @@ export default function Features() {
       description:
         "Prazos cumpridos à risca com agendamento flexível para sua comodidade.",
       icon: Clock,
-      color: "bg-sky-50 text-[#3BC9D9]",
+      color: "bg-indigo-50 text-[#063573]",
+    },
+    {
+      title: "Otimização de Performance",
+      description:
+        "Ajustes avançados para garantir máxima eficiência e economia de energia",
+      icon: Gauge,
+      color: "bg-indigo-50 text-[#063573]",
+    },
+    {
+      title: "Inspeção Completa",
+      description:
+        "Verificação minuciosa para identificar desgaste, riscos e necessidades de melhoria.",
+      icon: Search,
+      color: "bg-indigo-50 text-[#063573]",
     },
   ];
 

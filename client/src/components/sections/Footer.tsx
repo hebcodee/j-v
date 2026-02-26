@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
-import logo from "@assets/logo_(2)_1772068633650.png";
+// import logo from "@assets/logo_(2)_1772068633650.png";
 
 export default function Footer() {
   return (
@@ -8,15 +8,26 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Col */}
           <div className="space-y-6">
-            <img src={logo} alt="J&V Logo" className="h-16 brightness-0 invert opacity-90" />
+            <img
+              src={"/logo_branca.png"}
+              alt="J&V Logo"
+              className="h-18 opacity-90"
+            />
             <p className="text-sm leading-relaxed">
-              Especialistas em montagem, instalação e manutenção de equipamentos de refrigeração residencial e comercial.
+              Especialistas em montagem, instalação e manutenção de equipamentos
+              de refrigeração residencial e comercial.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#3BC9D9] hover:text-white transition-colors">
+              <a
+                href="#"
+                className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#3BC9D9] hover:text-white transition-colors"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#3BC9D9] hover:text-white transition-colors">
+              <a
+                href="#"
+                className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#3BC9D9] hover:text-white transition-colors"
+              >
                 <Facebook size={20} />
               </a>
             </div>
@@ -26,10 +37,35 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold text-lg mb-6">Links Rápidos</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="#solucoes" className="hover:text-white transition-colors">Nossas Soluções</a></li>
-              <li><a href="#beneficios" className="hover:text-white transition-colors">Benefícios</a></li>
-              <li><a href="#como-funciona" className="hover:text-white transition-colors">Como Funciona</a></li>
-              <li><a href="#faq" className="hover:text-white transition-colors">Dúvidas Frequentes</a></li>
+              <li>
+                <a
+                  href="#solucoes"
+                  className="hover:text-white transition-colors"
+                >
+                  Nossas Soluções
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#beneficios"
+                  className="hover:text-white transition-colors"
+                >
+                  Benefícios
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#como-funciona"
+                  className="hover:text-white transition-colors"
+                >
+                  Como Funciona
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-white transition-colors">
+                  Dúvidas Frequentes
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -51,7 +87,11 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="text-[#3BC9D9] shrink-0" size={20} />
-                <span>(11) 99999-9999<br/>(11) 3333-3333</span>
+                <span>
+                  (11) 99999-9999
+                  <br />
+                  (11) 3333-3333
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="text-[#3BC9D9] shrink-0" size={20} />
@@ -59,15 +99,21 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="text-[#3BC9D9] shrink-0" size={20} />
-                <span>Rua Exemplo de Endereço, 123<br/>São Paulo - SP</span>
+                <span>
+                  Rua Exemplo de Endereço, 123
+                  <br />
+                  São Paulo - SP
+                </span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-white/10 text-center text-sm text-blue-200/60 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} J&V Montagem e Manutenção. Todos os direitos reservados.</p>
-          <p>Feito com ❤️ pela Replit</p>
+          <p>
+            © {new Date().getFullYear()} J&V Montagem e Manutenção. Todos os
+            direitos reservados.
+          </p>
         </div>
       </div>
     </footer>
