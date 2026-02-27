@@ -1,7 +1,15 @@
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Facebook, Instagram, Linkedin, Menu, X, Youtube } from "lucide-react";
+import {
+  ArrowRight,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Menu,
+  X,
+  Youtube,
+} from "lucide-react";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,6 +37,7 @@ export default function Navbar() {
                 className="flex items-center gap-1 transition hover:opacity-80 hover:[&_svg]:translate-x-0.5"
               >
                 <span>Contate-Nos</span>
+                <ArrowRight className="size-5 shrink-0 duration-300" />
               </a>
             </div>
             <div className="flex items-center gap-6">

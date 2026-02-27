@@ -12,6 +12,7 @@ import FAQ from "@/components/sections/FAQ";
 import CTV from "@/components/sections/CTV";
 import Footer from "@/components/sections/Footer";
 import WhatsappFloatingButton from "../components/ui/whatsapp";
+import Gallery from "../components/sections/Gallery";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <SocialProof />
         <Features />
+        <Gallery />
         <Solution />
         <Stats />
         <Benefits />
