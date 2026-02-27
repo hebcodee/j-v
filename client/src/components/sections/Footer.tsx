@@ -85,32 +85,39 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="text-[#3BC9D9] shrink-0" size={20} />
-                <span>
-                  (11) 99999-9999
-                  <br />
-                  (11) 3333-3333
-                </span>
+                <span>(11) 99999-9999</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="text-[#3BC9D9] shrink-0" size={20} />
-                <span>contato@jvmontagem.com.br</span>
+                <span>jv.montagemmanutencao@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="text-[#3BC9D9] shrink-0" size={20} />
                 <span>
-                  Rua Exemplo de Endereço, 123
-                  <br />
-                  São Paulo - SP
+                  Via Expressa Mauri S.Barufi, 30 - Vila Santo Antonio, Jandira
+                  - SP, 06626-170
                 </span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-white/10 text-center text-sm text-blue-200/60 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-8 border-t border-white/10 text-start text-sm text-blue-200/60 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>
             © {new Date().getFullYear()} J&V Montagem e Manutenção. Todos os
             direitos reservados.
+            <br />
+            <p className="mt-1">
+              Desenvolvido por{" "}
+              <a
+                href="https://www.thousandtws.com/"
+                className="transition hover:opacity-80 hover:underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Thousand Web Services
+              </a>
+            </p>
           </p>
         </div>
       </div>
