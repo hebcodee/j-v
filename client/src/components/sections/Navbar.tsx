@@ -35,7 +35,7 @@ export default function Navbar() {
               <div className="flex items-center gap-2">
                 <span className="inline-flex items-center gap-1">
                   <span className="size-4 shrink-0 rounded-full bg-primary" />
-                  <span>Funcionamento: 07:00 AM - 18:00 PM</span>
+                  <span>Funcionamento: 09:00 AM - 17:00 PM</span>
                 </span>
               </div>
               <div className="bg-border h-11 w-px -skew-x-12"></div>
@@ -78,7 +78,7 @@ export default function Navbar() {
               <img
                 src={"/logo.png"}
                 alt="J&V Montagem e Manutenção"
-                className="h-12 md:h-12 object-contain"
+                className="h-16 md:h-16 object-fit"
               />
             </a>
           </Link>

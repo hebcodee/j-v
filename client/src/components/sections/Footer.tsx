@@ -8,11 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Col */}
           <div className="space-y-6">
-            <img
-              src={"/logo_branca.png"}
-              alt="J&V Logo"
-              className="h-18 opacity-90"
-            />
+            <h3 className="text-white font-bold text-lg w-60 h-20">
+              Montagem profissional para o seu negócio
+            </h3>
             <p className="text-sm leading-relaxed">
               Especialistas em montagem, instalação e manutenção de equipamentos
               de refrigeração residencial e comercial.
