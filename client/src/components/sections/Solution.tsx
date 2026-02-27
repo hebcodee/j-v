@@ -187,7 +187,7 @@ export default function Solution() {
                 alt="Manutenção de equipamentos"
                 className="w-full aspect-[4/3] object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-60 p-6 z-20">
+              <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
                 <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-xl p-4 flex items-center gap-4 text-white">
                   <div className="h-12 w-12 rounded-full bg-[#3BC9D9] flex items-center justify-center font-bold text-md">
                     100%
