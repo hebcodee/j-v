@@ -33,7 +33,7 @@ export default function Hero() {
               <span className="flex h-2 w-2 rounded-full bg-[#2C96BF] mr-2"></span>
               Especialistas em Refrigeração
             </div>
-            
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-tight mb-6">
               Excelência em{" "}
               <span className="block h-[1.2em] relative overflow-hidden text-[#063573]">
@@ -52,25 +52,33 @@ export default function Hero() {
               </span>
               de equipamentos de refrigeração
             </h1>
-            
+
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0">
-              Garantimos a eficiência, durabilidade e o máximo desempenho para seus aparelhos. 
-              Atendimento técnico especializado para residências e comércios.
+              Garantimos a eficiência, durabilidade e o máximo desempenho para
+              seus aparelhos. Atendimento técnico especializado para residências
+              e comércios.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-[#063573] hover:bg-[#0F528C] text-white rounded-full h-14 px-8 text-lg shadow-lg shadow-[#063573]/20 transition-transform hover:-translate-y-1">
+              <Button
+                size="lg"
+                className="bg-[#063573] hover:bg-[#0F528C] text-white rounded-full h-14 px-8 text-lg shadow-lg shadow-[#063573]/20 transition-transform hero-button-pulse"
+              >
                 Solicitar Orçamento
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-lg border-2 border-[#0F528C] text-[#0F528C] hover:bg-[#0F528C]/5 transition-colors">
+              <Button
+                size="lg"
+                variant="outline"
+                className="rounded-full h-14 px-8 text-lg border-2 border-[#0F528C] text-[#0F528C] hover:bg-[#0F528C]/5 transition-colors"
+              >
                 Nossos Serviços
               </Button>
             </div>
           </motion.div>
         </div>
 
-        <motion.div 
+        <motion.div
           className="flex-1 relative"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -78,14 +86,14 @@ export default function Hero() {
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 aspect-[4/3] group">
             <div className="absolute inset-0 bg-gradient-to-tr from-[#063573]/40 to-transparent z-10 opacity-60"></div>
-            <img 
-              src={serviceImg} 
-              alt="Serviço de refrigeração" 
+            <img
+              src={serviceImg}
+              alt="Serviço de refrigeração"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            
+
             {/* Floating Badge */}
-            <motion.div 
+            <motion.div
               className="absolute bottom-6 left-6 z-20 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-white/50 flex items-center gap-4"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -95,7 +103,9 @@ export default function Hero() {
                 ✓
               </div>
               <div>
-                <p className="font-bold text-gray-900 text-sm">Serviço Garantido</p>
+                <p className="font-bold text-gray-900 text-sm">
+                  Serviço Garantido
+                </p>
                 <p className="text-xs text-gray-500">Qualidade comprovada</p>
               </div>
             </motion.div>
