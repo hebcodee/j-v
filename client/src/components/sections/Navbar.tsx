@@ -63,7 +63,13 @@ export default function Navbar() {
             </a>
           </div>
           <Button className="bg-[#063573] hover:bg-[#0F528C] text-white rounded-full px-6">
-            Solicitar Orçamento
+            <a
+              href="https://api.whatsapp.com/send?phone=5583999853630&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20servi%C3%A7os%20de%20montagem%20e%20manuten%C3%A7%C3%A3o.%20Poderiam%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Solicitar Orçamento
+            </a>
           </Button>
         </div>
 

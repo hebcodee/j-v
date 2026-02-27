@@ -11,6 +11,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import CTV from "@/components/sections/CTV";
 import Footer from "@/components/sections/Footer";
+import WhatsappFloatingButton from "../components/ui/whatsapp";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Testimonials />
         <FAQ />
         <CTV />
+        <WhatsappFloatingButton />
       </main>
       <Footer />
     </div>
